@@ -55,8 +55,8 @@
 }
 
 #FECHA {
-    width: unset;
-    height: unset;
+    width: auto;
+    height: auto;
 }
 form input[type="email"],
 form input[type="tel"], 
