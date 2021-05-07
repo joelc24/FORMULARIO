@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container label {
+    font-size: 20px;
+}
+.container  table {
+    margin: 40px auto;
+    border: solid 2px #000;
+    width: 90%;
+}
+
+.container  caption {
+    border: solid 2px #000;
+    border-bottom: none;
+    font-size: x-large;
+    background: lightgreen;
+}
+
+.container td {
+    border: solid 1px #000;
+    font-size: 20px;
+}
+
+.container .pequeño {
+    width: 25%;
+}
+
+.soltera {
+    text-align: initial;
+    margin-left: 50px;
+    margin-left: 88px;
+}
+
+#Expedicion {
+    margin-left: 5px;
+}
+
+#Curso {
+    margin-bottom: inherit;
+    width: 250px;
+}
+
+#Curso:focus {
+    background: lightblue;
+}
+
+form input[type="email"],
+form input[type="tel"], 
+form input[type="text"], 
+form input[type="date"],
+form input[type="number"]{
+    text-align: center;
+}
+
+form input[type="email"],
+form input[type="tel"],
+form input[type="text"], 
+form input[type="date"],
+form input[type="number"]{
+    width: 100%;
+    height: 48px;
+}
+
+form input[type="email"]:focus,
+form input[type="tel"]:focus,
+form input[type="text"]:focus, 
+form input[type="fecha"]:focus,
+form input[type="number"]:focus{
+   background: lightblue;
+}
+
+
+form input[type="button"]{
+    padding: 10px;
+    box-shadow: 2px 2px 5px #000;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+form input[type="button"]:hover{
+    background: lightgreen;
+}
