@@ -93,4 +93,5 @@ form input[type="button"]{
 
 form input[type="button"]:hover{
     background: lightgreen;
+    cursor: pointer;
 }
